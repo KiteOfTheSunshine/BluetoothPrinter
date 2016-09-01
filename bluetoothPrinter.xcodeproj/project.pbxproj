@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060630741D2DFE2B000538A2 /* libPrinterSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 060630731D2DFE2B000538A2 /* libPrinterSDK.a */; };
+		060630791D2DFE39000538A2 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 060630761D2DFE39000538A2 /* SVProgressHUD.bundle */; };
+		0606307A1D2DFE39000538A2 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 060630781D2DFE39000538A2 /* SVProgressHUD.m */; };
+		060630821D2DFE56000538A2 /* FormatSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606307D1D2DFE56000538A2 /* FormatSettingTableViewController.m */; };
+		060630831D2DFE56000538A2 /* PrinterListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0606307F1D2DFE56000538A2 /* PrinterListViewController.m */; };
+		060630841D2DFE56000538A2 /* ValueEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060630811D2DFE56000538A2 /* ValueEditViewController.m */; };
+		060630881D2DFEC7000538A2 /* PrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 060630861D2DFEC7000538A2 /* PrintViewController.m */; };
+		060630891D2DFEC7000538A2 /* PrintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 060630871D2DFEC7000538A2 /* PrintViewController.xib */; };
+		0606308B1D2E02C0000538A2 /* jpush-ios-2.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0606308A1D2E02C0000538A2 /* jpush-ios-2.1.8.a */; };
+		B55368B01D2DE58700FC5605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55368AF1D2DE58700FC5605 /* main.m */; };
+		B55368B31D2DE58700FC5605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B55368B21D2DE58700FC5605 /* AppDelegate.m */; };
+		B55368B61D2DE58700FC5605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B55368B51D2DE58700FC5605 /* ViewController.m */; };
+		B55368B91D2DE58700FC5605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55368B71D2DE58700FC5605 /* Main.storyboard */; };
+		B55368BC1D2DE58700FC5605 /* bluetoothPrinter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B55368BA1D2DE58700FC5605 /* bluetoothPrinter.xcdatamodeld */; };
+		B55368BE1D2DE58700FC5605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55368BD1D2DE58700FC5605 /* Assets.xcassets */; };
+		B55368C11D2DE58700FC5605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55368BF1D2DE58700FC5605 /* LaunchScreen.storyboard */; };
+		B55368CC1D2DE58700FC5605 /* bluetoothPrinterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55368CB1D2DE58700FC5605 /* bluetoothPrinterTests.m */; };
+		B55368D71D2DE58700FC5605 /* bluetoothPrinterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B55368D61D2DE58700FC5605 /* bluetoothPrinterUITests.m */; };
+		B55368E91D2DE8A400FC5605 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55368E81D2DE8A400FC5605 /* CFNetwork.framework */; };
+		B55368EB1D2DE8AA00FC5605 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55368EA1D2DE8AA00FC5605 /* CoreFoundation.framework */; };
+		B55368ED1D2DE8B100FC5605 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55368EC1D2DE8B100FC5605 /* CoreTelephony.framework */; };
+		B55368EF1D2DE8B800FC5605 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55368EE1D2DE8B800FC5605 /* SystemConfiguration.framework */; };
+		B55368F11D2DE8C200FC5605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55368F01D2DE8C200FC5605 /* Foundation.framework */; };
+		B55368F31D2DE8CA00FC5605 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55368F21D2DE8CA00FC5605 /* UIKit.framework */; };
+		B55368F51D2DE8D100FC5605 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55368F41D2DE8D100FC5605 /* Security.framework */; };
+		B55368F71D2DE8E300FC5605 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B55368F61D2DE8E300FC5605 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B55368C81D2DE58700FC5605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55368A31D2DE58700FC5605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55368AA1D2DE58700FC5605;
+			remoteInfo = bluetoothPrinter;
+		};
+		B55368D31D2DE58700FC5605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B55368A31D2DE58700FC5605 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B55368AA1D2DE58700FC5605;
+			remoteInfo = bluetoothPrinter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060630721D2DFE21000538A2 /* PrinterSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterSDK.h; sourceTree = "<group>"; };
+		060630731D2DFE2B000538A2 /* libPrinterSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPrinterSDK.a; sourceTree = "<group>"; };
+		060630761D2DFE39000538A2 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		060630771D2DFE39000538A2 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		060630781D2DFE39000538A2 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		0606307C1D2DFE56000538A2 /* FormatSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatSettingTableViewController.h; sourceTree = "<group>"; };
+		0606307D1D2DFE56000538A2 /* FormatSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormatSettingTableViewController.m; sourceTree = "<group>"; };
+		0606307E1D2DFE56000538A2 /* PrinterListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterListViewController.h; sourceTree = "<group>"; };
+		0606307F1D2DFE56000538A2 /* PrinterListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterListViewController.m; sourceTree = "<group>"; };
+		060630801D2DFE56000538A2 /* ValueEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueEditViewController.h; sourceTree = "<group>"; };
+		060630811D2DFE56000538A2 /* ValueEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueEditViewController.m; sourceTree = "<group>"; };
+		060630851D2DFEC7000538A2 /* PrintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintViewController.h; sourceTree = "<group>"; };
+		060630861D2DFEC7000538A2 /* PrintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintViewController.m; sourceTree = "<group>"; };
+		060630871D2DFEC7000538A2 /* PrintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrintViewController.xib; sourceTree = "<group>"; };
+		0606308A1D2E02C0000538A2 /* jpush-ios-2.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.8.a"; sourceTree = "<group>"; };
+		B55368AB1D2DE58700FC5605 /* bluetoothPrinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetoothPrinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55368AF1D2DE58700FC5605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B55368B11D2DE58700FC5605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B55368B21D2DE58700FC5605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B55368B41D2DE58700FC5605 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B55368B51D2DE58700FC5605 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B55368B81D2DE58700FC5605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55368BB1D2DE58700FC5605 /* bluetoothPrinter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bluetoothPrinter.xcdatamodel; sourceTree = "<group>"; };
+		B55368BD1D2DE58700FC5605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B55368C01D2DE58700FC5605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B55368C21D2DE58700FC5605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55368C71D2DE58700FC5605 /* bluetoothPrinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluetoothPrinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55368CB1D2DE58700FC5605 /* bluetoothPrinterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bluetoothPrinterTests.m; sourceTree = "<group>"; };
+		B55368CD1D2DE58700FC5605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55368D21D2DE58700FC5605 /* bluetoothPrinterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluetoothPrinterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55368D61D2DE58700FC5605 /* bluetoothPrinterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bluetoothPrinterUITests.m; sourceTree = "<group>"; };
+		B55368D81D2DE58700FC5605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55368E61D2DE7DF00FC5605 /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
+		B55368E81D2DE8A400FC5605 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B55368EA1D2DE8AA00FC5605 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B55368EC1D2DE8B100FC5605 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B55368EE1D2DE8B800FC5605 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B55368F01D2DE8C200FC5605 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B55368F21D2DE8CA00FC5605 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B55368F41D2DE8D100FC5605 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B55368F61D2DE8E300FC5605 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55368A81D2DE58700FC5605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55368F71D2DE8E300FC5605 /* libz.tbd in Frameworks */,
+				060630741D2DFE2B000538A2 /* libPrinterSDK.a in Frameworks */,
+				B55368F51D2DE8D100FC5605 /* Security.framework in Frameworks */,
+				B55368F31D2DE8CA00FC5605 /* UIKit.framework in Frameworks */,
+				B55368F11D2DE8C200FC5605 /* Foundation.framework in Frameworks */,
+				B55368EF1D2DE8B800FC5605 /* SystemConfiguration.framework in Frameworks */,
+				B55368ED1D2DE8B100FC5605 /* CoreTelephony.framework in Frameworks */,
+				B55368EB1D2DE8AA00FC5605 /* CoreFoundation.framework in Frameworks */,
+				B55368E91D2DE8A400FC5605 /* CFNetwork.framework in Frameworks */,
+				0606308B1D2E02C0000538A2 /* jpush-ios-2.1.8.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55368C41D2DE58700FC5605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55368CF1D2DE58700FC5605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060630711D2DFE21000538A2 /* PrinterSDK */ = {
+			isa = PBXGroup;
+			children = (
+				0606308A1D2E02C0000538A2 /* jpush-ios-2.1.8.a */,
+				060630721D2DFE21000538A2 /* PrinterSDK.h */,
+			);
+			path = PrinterSDK;
+			sourceTree = "<group>";
+		};
+		060630751D2DFE39000538A2 /* SVProgressHD */ = {
+			isa = PBXGroup;
+			children = (
+				060630761D2DFE39000538A2 /* SVProgressHUD.bundle */,
+				060630771D2DFE39000538A2 /* SVProgressHUD.h */,
+				060630781D2DFE39000538A2 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHD;
+			sourceTree = "<group>";
+		};
+		0606307B1D2DFE56000538A2 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				0606307C1D2DFE56000538A2 /* FormatSettingTableViewController.h */,
+				0606307D1D2DFE56000538A2 /* FormatSettingTableViewController.m */,
+				0606307E1D2DFE56000538A2 /* PrinterListViewController.h */,
+				0606307F1D2DFE56000538A2 /* PrinterListViewController.m */,
+				060630801D2DFE56000538A2 /* ValueEditViewController.h */,
+				060630811D2DFE56000538A2 /* ValueEditViewController.m */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		B55368A21D2DE58700FC5605 = {
+			isa = PBXGroup;
+			children = (
+				B55368F61D2DE8E300FC5605 /* libz.tbd */,
+				B55368F41D2DE8D100FC5605 /* Security.framework */,
+				B55368F21D2DE8CA00FC5605 /* UIKit.framework */,
+				B55368F01D2DE8C200FC5605 /* Foundation.framework */,
+				B55368EE1D2DE8B800FC5605 /* SystemConfiguration.framework */,
+				B55368EC1D2DE8B100FC5605 /* CoreTelephony.framework */,
+				B55368EA1D2DE8AA00FC5605 /* CoreFoundation.framework */,
+				B55368E81D2DE8A400FC5605 /* CFNetwork.framework */,
+				B55368AD1D2DE58700FC5605 /* bluetoothPrinter */,
+				B55368CA1D2DE58700FC5605 /* bluetoothPrinterTests */,
+				B55368D51D2DE58700FC5605 /* bluetoothPrinterUITests */,
+				B55368AC1D2DE58700FC5605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55368AC1D2DE58700FC5605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55368AB1D2DE58700FC5605 /* bluetoothPrinter.app */,
+				B55368C71D2DE58700FC5605 /* bluetoothPrinterTests.xctest */,
+				B55368D21D2DE58700FC5605 /* bluetoothPrinterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55368AD1D2DE58700FC5605 /* bluetoothPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				0606307B1D2DFE56000538A2 /* setting */,
+				B55368E41D2DE7DF00FC5605 /* lib */,
+				B55368B11D2DE58700FC5605 /* AppDelegate.h */,
+				B55368B21D2DE58700FC5605 /* AppDelegate.m */,
+				060630851D2DFEC7000538A2 /* PrintViewController.h */,
+				060630861D2DFEC7000538A2 /* PrintViewController.m */,
+				060630871D2DFEC7000538A2 /* PrintViewController.xib */,
+				B55368B41D2DE58700FC5605 /* ViewController.h */,
+				B55368B51D2DE58700FC5605 /* ViewController.m */,
+				B55368B71D2DE58700FC5605 /* Main.storyboard */,
+				B55368BD1D2DE58700FC5605 /* Assets.xcassets */,
+				B55368BF1D2DE58700FC5605 /* LaunchScreen.storyboard */,
+				B55368C21D2DE58700FC5605 /* Info.plist */,
+				B55368BA1D2DE58700FC5605 /* bluetoothPrinter.xcdatamodeld */,
+				B55368AE1D2DE58700FC5605 /* Supporting Files */,
+			);
+			path = bluetoothPrinter;
+			sourceTree = "<group>";
+		};
+		B55368AE1D2DE58700FC5605 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55368AF1D2DE58700FC5605 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B55368CA1D2DE58700FC5605 /* bluetoothPrinterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B55368CB1D2DE58700FC5605 /* bluetoothPrinterTests.m */,
+				B55368CD1D2DE58700FC5605 /* Info.plist */,
+			);
+			path = bluetoothPrinterTests;
+			sourceTree = "<group>";
+		};
+		B55368D51D2DE58700FC5605 /* bluetoothPrinterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B55368D61D2DE58700FC5605 /* bluetoothPrinterUITests.m */,
+				B55368D81D2DE58700FC5605 /* Info.plist */,
+			);
+			path = bluetoothPrinterUITests;
+			sourceTree = "<group>";
+		};
+		B55368E41D2DE7DF00FC5605 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				060630751D2DFE39000538A2 /* SVProgressHD */,
+				060630731D2DFE2B000538A2 /* libPrinterSDK.a */,
+				060630711D2DFE21000538A2 /* PrinterSDK */,
+				B55368E61D2DE7DF00FC5605 /* JPUSHService.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55368AA1D2DE58700FC5605 /* bluetoothPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55368DB1D2DE58700FC5605 /* Build configuration list for PBXNativeTarget "bluetoothPrinter" */;
+			buildPhases = (
+				B55368A71D2DE58700FC5605 /* Sources */,
+				B55368A81D2DE58700FC5605 /* Frameworks */,
+				B55368A91D2DE58700FC5605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bluetoothPrinter;
+			productName = bluetoothPrinter;
+			productReference = B55368AB1D2DE58700FC5605 /* bluetoothPrinter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B55368C61D2DE58700FC5605 /* bluetoothPrinterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55368DE1D2DE58700FC5605 /* Build configuration list for PBXNativeTarget "bluetoothPrinterTests" */;
+			buildPhases = (
+				B55368C31D2DE58700FC5605 /* Sources */,
+				B55368C41D2DE58700FC5605 /* Frameworks */,
+				B55368C51D2DE58700FC5605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55368C91D2DE58700FC5605 /* PBXTargetDependency */,
+			);
+			name = bluetoothPrinterTests;
+			productName = bluetoothPrinterTests;
+			productReference = B55368C71D2DE58700FC5605 /* bluetoothPrinterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B55368D11D2DE58700FC5605 /* bluetoothPrinterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55368E11D2DE58700FC5605 /* Build configuration list for PBXNativeTarget "bluetoothPrinterUITests" */;
+			buildPhases = (
+				B55368CE1D2DE58700FC5605 /* Sources */,
+				B55368CF1D2DE58700FC5605 /* Frameworks */,
+				B55368D01D2DE58700FC5605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55368D41D2DE58700FC5605 /* PBXTargetDependency */,
+			);
+			name = bluetoothPrinterUITests;
+			productName = bluetoothPrinterUITests;
+			productReference = B55368D21D2DE58700FC5605 /* bluetoothPrinterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55368A31D2DE58700FC5605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Emma;
+				TargetAttributes = {
+					B55368AA1D2DE58700FC5605 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FWD8452A8F;
+					};
+					B55368C61D2DE58700FC5605 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B55368AA1D2DE58700FC5605;
+					};
+					B55368D11D2DE58700FC5605 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B55368AA1D2DE58700FC5605;
+					};
+				};
+			};
+			buildConfigurationList = B55368A61D2DE58700FC5605 /* Build configuration list for PBXProject "bluetoothPrinter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55368A21D2DE58700FC5605;
+			productRefGroup = B55368AC1D2DE58700FC5605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55368AA1D2DE58700FC5605 /* bluetoothPrinter */,
+				B55368C61D2DE58700FC5605 /* bluetoothPrinterTests */,
+				B55368D11D2DE58700FC5605 /* bluetoothPrinterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55368A91D2DE58700FC5605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060630891D2DFEC7000538A2 /* PrintViewController.xib in Resources */,
+				B55368C11D2DE58700FC5605 /* LaunchScreen.storyboard in Resources */,
+				B55368BE1D2DE58700FC5605 /* Assets.xcassets in Resources */,
+				B55368B91D2DE58700FC5605 /* Main.storyboard in Resources */,
+				060630791D2DFE39000538A2 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55368C51D2DE58700FC5605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55368D01D2DE58700FC5605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55368A71D2DE58700FC5605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55368B61D2DE58700FC5605 /* ViewController.m in Sources */,
+				B55368B31D2DE58700FC5605 /* AppDelegate.m in Sources */,
+				0606307A1D2DFE39000538A2 /* SVProgressHUD.m in Sources */,
+				060630881D2DFEC7000538A2 /* PrintViewController.m in Sources */,
+				060630821D2DFE56000538A2 /* FormatSettingTableViewController.m in Sources */,
+				060630831D2DFE56000538A2 /* PrinterListViewController.m in Sources */,
+				B55368B01D2DE58700FC5605 /* main.m in Sources */,
+				060630841D2DFE56000538A2 /* ValueEditViewController.m in Sources */,
+				B55368BC1D2DE58700FC5605 /* bluetoothPrinter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55368C31D2DE58700FC5605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55368CC1D2DE58700FC5605 /* bluetoothPrinterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B55368CE1D2DE58700FC5605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55368D71D2DE58700FC5605 /* bluetoothPrinterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B55368C91D2DE58700FC5605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55368AA1D2DE58700FC5605 /* bluetoothPrinter */;
+			targetProxy = B55368C81D2DE58700FC5605 /* PBXContainerItemProxy */;
+		};
+		B55368D41D2DE58700FC5605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B55368AA1D2DE58700FC5605 /* bluetoothPrinter */;
+			targetProxy = B55368D31D2DE58700FC5605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B55368B71D2DE58700FC5605 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55368B81D2DE58700FC5605 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B55368BF1D2DE58700FC5605 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55368C01D2DE58700FC5605 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55368D91D2DE58700FC5605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B55368DA1D2DE58700FC5605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55368DC1D2DE58700FC5605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = bluetoothPrinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/bluetoothPrinter/lib",
+					"$(PROJECT_DIR)/bluetoothPrinter/lib/PrinterSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sutong.bluetoothPrintera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/bluetoothPrinter/lib";
+			};
+			name = Debug;
+		};
+		B55368DD1D2DE58700FC5605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = bluetoothPrinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/bluetoothPrinter/lib",
+					"$(PROJECT_DIR)/bluetoothPrinter/lib/PrinterSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sutong.bluetoothPrintera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/bluetoothPrinter/lib";
+			};
+			name = Release;
+		};
+		B55368DF1D2DE58700FC5605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bluetoothPrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sutong.bluetoothPrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluetoothPrinter.app/bluetoothPrinter";
+			};
+			name = Debug;
+		};
+		B55368E01D2DE58700FC5605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bluetoothPrinterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sutong.bluetoothPrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluetoothPrinter.app/bluetoothPrinter";
+			};
+			name = Release;
+		};
+		B55368E21D2DE58700FC5605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bluetoothPrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sutong.bluetoothPrinterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bluetoothPrinter;
+			};
+			name = Debug;
+		};
+		B55368E31D2DE58700FC5605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bluetoothPrinterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sutong.bluetoothPrinterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bluetoothPrinter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55368A61D2DE58700FC5605 /* Build configuration list for PBXProject "bluetoothPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55368D91D2DE58700FC5605 /* Debug */,
+				B55368DA1D2DE58700FC5605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55368DB1D2DE58700FC5605 /* Build configuration list for PBXNativeTarget "bluetoothPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55368DC1D2DE58700FC5605 /* Debug */,
+				B55368DD1D2DE58700FC5605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55368DE1D2DE58700FC5605 /* Build configuration list for PBXNativeTarget "bluetoothPrinterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55368DF1D2DE58700FC5605 /* Debug */,
+				B55368E01D2DE58700FC5605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55368E11D2DE58700FC5605 /* Build configuration list for PBXNativeTarget "bluetoothPrinterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55368E21D2DE58700FC5605 /* Debug */,
+				B55368E31D2DE58700FC5605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B55368BA1D2DE58700FC5605 /* bluetoothPrinter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B55368BB1D2DE58700FC5605 /* bluetoothPrinter.xcdatamodel */,
+			);
+			currentVersion = B55368BB1D2DE58700FC5605 /* bluetoothPrinter.xcdatamodel */;
+			path = bluetoothPrinter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B55368A31D2DE58700FC5605 /* Project object */;
+}
